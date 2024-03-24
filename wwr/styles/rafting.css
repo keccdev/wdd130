@@ -1,0 +1,234 @@
+/*Rafting is of About*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+:root {
+    --primary-color: #0c3b2e;
+    --secondary-color: #6d9773;
+    --accent1-color: #bb8a52;
+    --accent2-color: #ffba00;
+
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Roboto', serif;
+
+    --nav-background-color: #0c3b2e;
+    --nav-link-color: #fff;
+    --nav-hover-link-color: #6d9773;
+    --nav-hover-background-color: #ffba00;
+    ;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+}
+header {
+    background-color: #f70759;
+}
+
+nav {
+    font-size: 1rem;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    display: flex;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.7em;
+}
+
+nav a:hover {
+    color: var(--nav-link-color);
+}
+
+/*Brief information about who we are*/
+.brief,
+.history,
+.adventure {
+    width: auto;
+    background-color: #ddd;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/*Ajustes adicionales para History*/
+.content {
+    display: flex;
+}
+
+.img__history {
+    width: 15%; 
+    height: 15%; 
+    object-fit: cover;
+}
+
+/*Botones*/
+.btn-learn-more {
+    background-color: #f70759;
+    color: #fff;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-learn-more:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+.background-image {
+    width: 100%;
+    max-height: 550px;
+    margin-top: 0px;
+    box-shadow: 0 0 30px gray;
+}
+
+/*Estilos para la caja de Aventuras para ti*/
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 150px;
+    margin:10px;
+}
+
+.box img {
+    width:100%;
+    height:auto; 
+    opacity:0.7; 
+    border: 2px solid #777;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.box p {
+    margin-top: 0px; 
+}
+
+/* Estilo base para dispositivos grandes */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icons {
+    width: 55px; 
+    height: 55px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Media query para dispositivos medianos */
+@media (max-width: 1024px) {
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .icons {
+        width: 50px; 
+        height: 50px;
+    }
+
+    .nav-text a {
+        font-size: 0.9em; 
+        padding: 5px 8px;
+        margin: 0 8px;
+    }
+}
+
+/* Media query para tablets */
+@media (max-width: 768px) {
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+.icons {
+    width: 40px;
+    height: 40px;
+}
+
+    .nav-text a {
+        font-size: 0.8em;
+        padding: 4px 6px;
+        margin: 0 6px;
+    }
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .logo {
+        width: 30px; 
+        height: 30px;
+    }
+
+.icons {
+    width: 30px; 
+    height: 30px;
+}
+
+    .nav-text {
+        display: block;
+    }
+
+    .nav-text a {
+        font-size: 0.7em;
+        padding: 3px 4px;
+        margin: 0 4px;
+    }
+}
