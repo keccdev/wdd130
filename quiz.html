@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <h1>HTML and CSS Quiz</h1>
+    <form action="process_quiz.php" method="post">
+        <!-- Question 1: Blank answer -->
+        <label for="Q1">1. What does HTML stand for?</label>
+        <input type="text" id="Q1" name="Q1" required>
+
+        <!-- Question 2: Short answer -->
+        <label for="P2">2. Name an HTML element to create an unordered list.</label>
+        <textarea id="P2" name="P2" rows="4" required></textarea>
+
+        <!-- Question 3: Dropdown menu -->
+        <label for="P3">3. What is the CSS property to change text color?</label>
+        <select id="P3" name="P3" required>
+            <option value="" selected disabled>Choose an option...</option>
+            <option value="color">color</option>
+            <option value="font-color">font-color</option>
+            <option value="text-color">text-color</option>
+        </select>
+
+        <!-- Question 4: Integer answer -->
+        <label for="Question4">4. How many levels of HTML headings exist?</label>
+        <input type="number" id="Question4" name="Question4" min="1" max="6" required>
+
+        <!-- Button to submit the quiz -->
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+
+</html>
