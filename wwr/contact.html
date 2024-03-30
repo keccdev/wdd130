@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Need help booking? Have you had problems with any activity? We're here to help you every day of the year.">
+    <meta name="author" content="Kevin E. Cruz">
+    <link rel="stylesheet" href="../wwr/styles/rafting.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <!--Menu-->
+    <header>
+        <nav>
+            <img src="../wwr/images/logo1.png" alt="Whitewater Rafting Site Logo" class="logo">
+            <a href="../index.html">Home</a>
+            <a href="../wwr/site-plan-rafting.html">La Ceiba Whitewater Rafting</a>
+            <a href="../wwr/about.html">About Us</a>
+            <a href="../wwr/trips.html">Trips</a>
+            <a href="../wwr/contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Company Information -->
+    <main>
+        <h1>Contact Us</h1>
+
+        <h2>Send Us a Message</h2>
+
+        <p>White Water Rafting</p>
+        <p>Río Cangrejal, La Ceiba, Honduras</p>
+        <p>Phone: +504 9999-9999</p>
+        <p>Email: <a href="contact@raftingriocangrejal.com">contact@raftingriocangrejal.com</a></p>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91771.62781693527!2d-86.72894825699646!3d15.715388017892565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f69a95f941137ed%3A0x4580b39299a604c1!2sR%C3%ADo%20Cangrejal!5e0!3m2!1ses-419!2shn!4v1711774117861!5m2!1ses-419!2shn"
+                width="950" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+    <!-- Images of Happy Employees -->
+    <div class="employee-images">
+        <div class="employee">
+            <img src="images/empleado1.jpg" alt="Carlos Rodríguez">
+            <p>Carlos Rodríguez</p>
+            <p>Rafting Guide</p>
+        </div>
+        <div class="employee">
+            <img src="images/empleado2.jpg" alt="Manuel Ortiz">
+            <p>Manuel Ortiz</p>
+            <p>Transport Driver</p>
+        </div>
+        <div class="employee">
+            <img src="images/empleado3.jpg" alt="Luis Zelaya">
+            <p>Luis Zelaya</p>
+            <p>Safety Instructor</p>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container">
+        <h2>Get in Touch</h2>
+        <form action="process_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="nombre" required>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="phone_number">Phone Number:</label>
+            <input type="text" id="phone_number" name="phone_number" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <label>
+                <input type="checkbox" name="boletin" value="Si">Subscribe me to the Monthly Newsletter
+            </label>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+    <!--Footer and SocialLinks-->
+    <footer class="foo">
+        <p>©️ 2023 Kevin E. Cruz | La Ceiba Whitewater Rafting | WDD130</p>
+        <nav class="sociallinks">
+            <a href="https://www.instagram.com/dear_cruz/" target="_blank">
+                <img src="images/instagram.png" alt="Enlace a Instagram" class="icons">
+            </a>
+
+            <a href="https://www.linkedin.com/in/fromthecross/" target="_blank">
+                <img src="images/linkedin.png" alt="Enlace a LinkedIn" class="icons">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
