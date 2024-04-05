@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto', serif;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto', serif;
+    color: #0c3b2e;
+    text-align: center;
+}
+
+header {
+    background-color: #f70759;
+}
+
+nav {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    font-family: 'Rock Salt', serif;
+    color: #fff;
+    display: flex;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.7em;
+}
+
+nav a:hover {
+    color: #6d9773;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* Main */
+main {
+    margin-top: 60px;
+    font-size: 1.5rem;
+}
+
+p {
+    text-align: center;
+}
+
+.cta-button {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+
+/*Trip with Photographs*/
+.section__description {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.trip-description, 
+.trip-description1,
+.trip-description2 {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.trip-description img,
+.trip-description1 img,
+.trip-description2 img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.trip-description h2,
+.trip-description1 h2,
+.trip-description2 h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.trip-description p,
+.trip-description1 p,
+.trip-description2 p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/*Travel table*/
+.section__table {
+margin-top: -60px;
+}
+
+.h1 {
+    text-align: center;
+    position: static;
+    margin-top: 120px;
+}
+
+.trip-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0px auto;
+    position: static;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: steelblue;
+    color: #fff;
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.trip-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
