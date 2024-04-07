@@ -14,7 +14,6 @@
     --nav-link-color: #fff;
     --nav-hover-link-color: #6d9773;
     --nav-hover-background-color: #f70759;
-    ;
 }
 
 * {
@@ -26,7 +25,7 @@
 
 body {
     font-family: var(--paragraph-font);
-    background-color: #ffffff;
+    background-color: #f0f0f0;
     justify-content: center;
     align-items: flex-start;
     height: 100vh;
@@ -78,8 +77,8 @@ nav a:hover {
 
 footer {
     text-align: center;
-    margin-top: 30px; /* Margen superior */
-    margin-bottom: 30px; /* Margen inferior */
+    margin-top: 30px; 
+    margin-bottom: 30px; 
 }
 
 /*Carrusel Video*/
@@ -153,18 +152,6 @@ video {
     grid-template-columns: 1fr;
     grid-gap: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     text-align: center;
