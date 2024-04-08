@@ -6,7 +6,9 @@
 
 :root {
     --primary-color: #333333;
-    --secondary-color: #6d9773;
+    --secondary-color: #008fb3;
+    --Third-color: #00a3cc;
+    --Fourth-color: #ed4223;
 
     /*========== Font ==========*/
     --heading-font: "Trocchi", serif;
@@ -16,8 +18,7 @@
     --h3-font-size: 1rem;
 
     --nav-link-color: #fff;
-    --nav-hover-link-color: #d44334;
-    /*--nav-hover-link-color: #6d9773;*/
+    --nav-hover-link-color: #6d9773;
 
     --font-size: 1.10rem;
 }
@@ -92,21 +93,17 @@ a:hover {
     z-index: -1;
 }
 
-.img__section {
+.img__main {
     width: 100%;
+    height: 660px;
 }
 
-section h1 {
-    text-align: center;
-    font-size: 1.7rem;
-}
-
-/*div text*/
+/* Div Text  */
 .div-text {
     height: 450px;
     padding: 20px;
     font-family: var(--paragraph-font);
-    margin-top: 110px;
+    margin-top: 50px;
 }
 
 .text1 {
@@ -114,11 +111,12 @@ section h1 {
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
+    color: var(--primary-color);
 }
 
 .text2 {
     font-size: var(--h2-font-size);
-    color: #00a3cc;
+    color: var(--secondary-color);
     margin-top: 50px;
     margin-bottom: 10px;
     text-align: center;
@@ -130,36 +128,75 @@ section h1 {
     text-align: center;
 }
 
-/*div img*/
+/*Div img*/
 .image-container {
     display: flex;
-    margin-top: -90px;
+    margin-top: -70px;
 }
 
-.spring-image, .wow-image, .spring-flower-image, .trekking-image {
+.relaxation, .nature, .sunsets, .comfort {
     width: 25%;
 }
 
-.spring-flower-image {
+/*.spring-flower-image {
     object-fit: cover;
+}*/
+
+/* Call to action  */
+.call__action {
+    text-align: center;
+    margin-top: 40px;
 }
 
+.call__action a {
+    font-size: var(--h2-font-size);
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
 
+.call__action a:hover {
+    color: var(--Fourth-color);
+}
 
+/* Offers with images and content */
+.section__description {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 50px;
+}
 
+.trip-description, 
+.trip-description1,
+.trip-description2 {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
 
+.trip-description img,
+.trip-description1 img,
+.trip-description2 img {
+    width: 100%;
+    border-radius: 5px;
+}
 
+.trip-description h2,
+.trip-description1 h2,
+.trip-description2 h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.trip-description p,
+.trip-description1 p,
+.trip-description2 p {
+    margin-top: 10px;
+    font-size: 16px;
+}
 
 /* Subscription Section */
 #subscription {
@@ -167,7 +204,7 @@ section h1 {
     flex-direction: column;
     align-items: center;
     font-family: var(--paragraph-font);
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .h2__form {
@@ -192,7 +229,7 @@ input[type="email"] {
 
   /* Estilos para el botón de suscripción */
 button[type="submit"] {
-    background-color: #00a3cc;
+    background-color: var(--Third-color);
     color: white;
     border: none;
     border-radius: 5px;
@@ -202,7 +239,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #008fb3;
+    background-color: var(--secondary-color);
 }
 
-
+/* Footer */
