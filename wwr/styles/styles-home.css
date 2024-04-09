@@ -5,10 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 :root {
-    --primary-color: #333333;
+    --primary-color: #f0f0f0;
     --secondary-color: #008fb3;
     --Third-color: #00a3cc;
-    --Fourth-color: #ed4223;
+    --Fourth-color: orange;
+    --Fifth-color: #707070;
+    --Sixth-color: #1d1d1b;
 
     /*========== Font ==========*/
     --heading-font: "Trocchi", serif;
@@ -21,6 +23,7 @@
     --nav-hover-link-color: #6d9773;
 
     --font-size: 1.10rem;
+    --footer-font-size: 1.4rem;
 }
 
 /* Default Styles */
@@ -89,7 +92,7 @@ a:hover {
 .main__profile {
     background-size: cover;
     background-position: center;
-    position: relative;
+    position: relative;(--h2-font-size)
     z-index: -1;
 }
 
@@ -111,7 +114,7 @@ a:hover {
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
-    color: var(--primary-color);
+    color: var(--Sixth-color);
 }
 
 .text2 {
@@ -151,7 +154,7 @@ a:hover {
 .call__action a {
     font-size: var(--h2-font-size);
     font-family: var(--paragraph-font);
-    color: var(--primary-color);
+    color: var(--Sixth-color);
 }
 
 .call__action a:hover {
@@ -198,48 +201,53 @@ a:hover {
     font-size: 16px;
 }
 
-/* Subscription Section */
-#subscription {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: var(--paragraph-font);
-    margin-top: 50px;
+/* Newsletter Subscription Form */
+.newsletter {
+    background-color: var(--Fifth-color);
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
 }
 
-.h2__form {
-    margin: 5px;
+.newsletter p {
+    margin: 0;
+    font-size: var(--h1-font-size);
 }
 
-  /* Estilos para las etiquetas de los campos */
-label {
-    font-weight: bold;
-    margin-bottom: 5px;
+.newsletter h2 {
+    margin: 10px 0;
+    font-size: var(--h2-font-size);
 }
 
-  /* Estilos para los campos de entrada */
-input[type="text"],
-input[type="email"] {
-    width: 200px;
+.subscribe-box {
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.subscribe-box input[type=email] {
     padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    font-size: 16px;
 }
 
-  /* Estilos para el botón de suscripción */
-button[type="submit"] {
-    background-color: var(--Third-color);
+.subscribe-box button {
+    background-color: orange;
     color: white;
     border: none;
-    border-radius: 5px;
     padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
-button[type="submit"]:hover {
-    background-color: var(--secondary-color);
+/* Footer with wireframe image */
+footer {
+    text-align: center;
+    margin: 40px;
+    font-size: var(--footer-font-size);
+    margin-bottom: 10px;
 }
 
-/* Footer */
+footer a {
+    color: var(--Fifth-color);
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+}

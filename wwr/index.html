@@ -18,9 +18,6 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="styles/styles-home.css">
 
-    <!--=============== REMIXICONS ===============-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
-
 </head>
 
 <body>
@@ -126,22 +123,23 @@
     </section>
 
     <!-- Newsletter Subscription Form -->
-    <section id="subscription">
-        <h2 class="h2__form">Get the latest news about La Ceiba</h2>
-        <form action="process_subscription.php" method="post">
-            <label for="nombre">Name:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <label for="correo">Email:</label>
-            <input type="email" id="correo" name="correo" required>
-            <button type="submit">Subscribe</button>
-        </form>
-    </section>
+    <div class="newsletter">
+        <p>Get the latest news about the Honduran Bride!</p>
+        <h2>NEWSLETTER</h2>
+        <div class="subscribe-box">
+            <input type="email" placeholder="Enter E-mail Address">
+            <button>SUBSCRIBE</button>
+        </div>
+    </div>
 
-    <!-- Pie de página con enlace a la estructura alámbrica -->
+    <!-- Footer with wireframe image-->
     <footer>
-        <p>© 2024 Rafting en Aguas Bravas. Todos los derechos reservados.</p>
-        <a href="estructura_alambrica.jpg">Ver estructura alámbrica</a>
+        <div>
+            <p>© 2024 | by Kevin E. Cruz | La Ceiba Whitewater Rafting | WDD 130 </p>
+            <a href="images/Visual structure of the homepage.png" target="_blank">View wireframe</a>
+        </div>
     </footer>
-</body>
+
+</body>s
 
 </html>
