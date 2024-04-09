@@ -92,7 +92,7 @@ a:hover {
 .main__profile {
     background-size: cover;
     background-position: center;
-    position: relative;(--h2-font-size)
+    position: relative;
     z-index: -1;
 }
 
