@@ -211,12 +211,12 @@ a:hover {
 
 .newsletter p {
     margin: 0;
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
 }
 
 .newsletter h2 {
     margin: 10px 0;
-    font-size: var(--h2-font-size);
+    font-size: var(--h1-font-size);
 }
 
 .subscribe-box {
