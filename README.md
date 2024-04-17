@@ -15,5 +15,5 @@ Home: Muestra e invita a seguir las notocias de la belleza de Honduras.
 La Ceiba Whitewater Rafting: Enseña el Rafting en el Rio Cangrejal donde se puede vivir una aventura inolvidable.
 About: Informa sobre la historia del Rafting el La Ceiba.
 Trips: Ofrece ofertas y mas destinos.
-Contact: Detalla la ubicacion y ofrece contacto directo a servicio de ayuda.
-Author: Cuenta una breve descripcion del autor.
+Contact: Detalla la ubicacion y ofrece contacto directo a servicio de ayuda.https://keccdev.github.io/wdd130/wwr/index.html
+Author: Da una breve descripcion del autor.
