@@ -17,3 +17,6 @@ About: Informa sobre la historia del Rafting el La Ceiba.
 Trips: Ofrece ofertas y mas destinos.
 Contact: Detalla la ubicacion y ofrece contacto directo a servicio de ayuda.
 Author: Da una breve descripcion del autor.
+
+![Captura de pantalla_15-8-2024_153050_keccdev github io](https://github.com/user-attachments/assets/78d2346a-a47d-4fdf-9bfe-8e9e6901732b)
+
